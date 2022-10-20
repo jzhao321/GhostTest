@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx run serve"
+    "dev": "nx run serve",
+    "build": "nx run build",
+    "start": "nx run serve --prod"
   },
   "private": true,
   "devDependencies": {
