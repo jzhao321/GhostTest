@@ -10,7 +10,7 @@ const config = {
     localePath:
       process.env.NODE_ENV === 'development'
         ? path.resolve('./packages/ghost-test-frontend/public/locales')
-        : path.resolve('./public/locales'),
+        : path.resolve('./locales'),
   },
 };
 
