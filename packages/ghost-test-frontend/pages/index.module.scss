@@ -1,0 +1,25 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .pageBody {
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 64px;
+
+    .userListHeader {
+      margin-top: 40px;
+      & > p {
+        font-size: 28pt;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+  }
+
+  .toolBar {
+    gap: 20px;
+  }
+}

@@ -1,0 +1,24 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+
+.userList {
+  .card {
+    margin: 20px;
+    width: 100%;
+  }
+
+  .tableHead {
+    .tableHeadText {
+      font-weight: bold;
+    }
+  }
+
+  .thumbnailTableCell {
+    width: 40px;
+  }
+}
