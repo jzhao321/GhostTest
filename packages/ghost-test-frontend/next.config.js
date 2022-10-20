@@ -2,7 +2,7 @@
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const { withNx } = require('@nrwl/next/plugins/with-nx');
-const { i18n } = require('../../next-i18next.config')
+const config = require('../../next-i18next.config')
 
 /**
  * @type {import('@nrwl/next/plugins/with-nx').WithNxOptions}
@@ -20,7 +20,7 @@ const nextConfig = {
       }
     ]
   },
-  i18n,
+  i18n: config.i18n,
 };
 
 module.exports = withNx(nextConfig);
