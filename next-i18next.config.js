@@ -7,7 +7,7 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'de'],
-    localePath: 'packages/ghost-test-frontend/public/locales'
+    localePath: process.env.NODE_ENV === 'development' ? 'packages/ghost-test-frontend/public/locales' : 'dist/packages/ghost-test-frontend/public/locales'
   }
 }
 
